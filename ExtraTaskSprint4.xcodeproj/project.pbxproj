@@ -13,6 +13,13 @@
 		4F5E69402AF9571F0021AD17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F5E693E2AF9571F0021AD17 /* Main.storyboard */; };
 		4F5E69422AF957200021AD17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F5E69412AF957200021AD17 /* Assets.xcassets */; };
 		4F5E69452AF957200021AD17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F5E69432AF957200021AD17 /* LaunchScreen.storyboard */; };
+		4F5E69A62AF95E810021AD17 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F5E699A2AF95E440021AD17 /* Roboto-Black.ttf */; };
+		4F5E69A82AF95E870021AD17 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F5E699F2AF95E440021AD17 /* Roboto-Bold.ttf */; };
+		4F5E69AA2AF95E8C0021AD17 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F5E699C2AF95E440021AD17 /* Roboto-Italic.ttf */; };
+		4F5E69AB2AF95E8F0021AD17 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F5E69A32AF95E440021AD17 /* Roboto-Light.ttf */; };
+		4F5E69AD2AF95E930021AD17 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F5E69A12AF95E440021AD17 /* Roboto-Medium.ttf */; };
+		4F5E69AF2AF95E980021AD17 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F5E699E2AF95E440021AD17 /* Roboto-Regular.ttf */; };
+		4F5E69B02AF95E9A0021AD17 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F5E69A02AF95E440021AD17 /* Roboto-Thin.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		4F5E69412AF957200021AD17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F5E69442AF957200021AD17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F5E69462AF957200021AD17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F5E699A2AF95E440021AD17 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		4F5E699C2AF95E440021AD17 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		4F5E699E2AF95E440021AD17 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		4F5E699F2AF95E440021AD17 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		4F5E69A02AF95E440021AD17 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		4F5E69A12AF95E440021AD17 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		4F5E69A32AF95E440021AD17 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +74,42 @@
 				4F5E693A2AF9571F0021AD17 /* SceneDelegate.swift */,
 				4F5E693C2AF9571F0021AD17 /* ViewController.swift */,
 				4F5E693E2AF9571F0021AD17 /* Main.storyboard */,
-				4F5E69412AF957200021AD17 /* Assets.xcassets */,
-				4F5E69432AF957200021AD17 /* LaunchScreen.storyboard */,
 				4F5E69462AF957200021AD17 /* Info.plist */,
+				4F5E694C2AF95A5E0021AD17 /* Resourses */,
 			);
 			path = ExtraTaskSprint4;
+			sourceTree = "<group>";
+		};
+		4F5E694C2AF95A5E0021AD17 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				4F5E69B32AF95FB50021AD17 /* Fonts */,
+				4F5E69432AF957200021AD17 /* LaunchScreen.storyboard */,
+				4F5E69412AF957200021AD17 /* Assets.xcassets */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		4F5E69992AF95E3A0021AD17 /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				4F5E699A2AF95E440021AD17 /* Roboto-Black.ttf */,
+				4F5E699F2AF95E440021AD17 /* Roboto-Bold.ttf */,
+				4F5E699C2AF95E440021AD17 /* Roboto-Italic.ttf */,
+				4F5E69A32AF95E440021AD17 /* Roboto-Light.ttf */,
+				4F5E69A12AF95E440021AD17 /* Roboto-Medium.ttf */,
+				4F5E699E2AF95E440021AD17 /* Roboto-Regular.ttf */,
+				4F5E69A02AF95E440021AD17 /* Roboto-Thin.ttf */,
+			);
+			path = Roboto;
+			sourceTree = "<group>";
+		};
+		4F5E69B32AF95FB50021AD17 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4F5E69992AF95E3A0021AD17 /* Roboto */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +170,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F5E69B02AF95E9A0021AD17 /* Roboto-Thin.ttf in Resources */,
 				4F5E69452AF957200021AD17 /* LaunchScreen.storyboard in Resources */,
 				4F5E69422AF957200021AD17 /* Assets.xcassets in Resources */,
+				4F5E69A82AF95E870021AD17 /* Roboto-Bold.ttf in Resources */,
 				4F5E69402AF9571F0021AD17 /* Main.storyboard in Resources */,
+				4F5E69AA2AF95E8C0021AD17 /* Roboto-Italic.ttf in Resources */,
+				4F5E69AD2AF95E930021AD17 /* Roboto-Medium.ttf in Resources */,
+				4F5E69AF2AF95E980021AD17 /* Roboto-Regular.ttf in Resources */,
+				4F5E69A62AF95E810021AD17 /* Roboto-Black.ttf in Resources */,
+				4F5E69AB2AF95E8F0021AD17 /* Roboto-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +352,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,7 +362,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -328,6 +381,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -337,7 +391,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
