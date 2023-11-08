@@ -43,6 +43,16 @@ final class ViewController: UIViewController {
         // задаем значения для jokeLabel
         jokeLabel.layer.masksToBounds = true // разрешаем рисовать рамку
         jokeLabel.layer.borderColor = UIColor.black.cgColor // красим рамку
+        // добавляем линию снизу лэйбла
+        let bottomLine = CALayer()
+        bottomLine.frame = CGRect(x: 0.0, y: self.jokeLabel.frame.height - 2, width: self.jokeLabel.frame.width, height: 2.0)
+        bottomLine.backgroundColor = UIColor.black.cgColor
+        jokeLabel.layer.addSublayer(bottomLine)
+        // добавляем линию сверху лэйбла
+        let topLine = CALayer()
+        topLine.frame = CGRect(x: 0.0, y: 0.0, width: self.jokeLabel.frame.width, height: 2.0)
+        topLine.backgroundColor = UIColor.black.cgColor
+        jokeLabel.layer.addSublayer(topLine)
         
         // блокируем от нажатий кнопку refreshButton
         refreshButton.isEnabled = false
@@ -67,4 +77,3 @@ final class ViewController: UIViewController {
     }
     
 }
-
