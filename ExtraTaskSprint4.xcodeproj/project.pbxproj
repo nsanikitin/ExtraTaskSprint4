@@ -84,14 +84,14 @@
 		4F5E69372AF9571F0021AD17 /* ExtraTaskSprint4 */ = {
 			isa = PBXGroup;
 			children = (
+				4F5E693C2AF9571F0021AD17 /* ViewController.swift */,
 				4F9B1CD22B1CCBF800F80B7A /* Services */,
 				4F9B1CD12B1CCBD500F80B7A /* Models */,
+				4F5E694C2AF95A5E0021AD17 /* Resourses */,
 				4F5E69382AF9571F0021AD17 /* AppDelegate.swift */,
 				4F5E693A2AF9571F0021AD17 /* SceneDelegate.swift */,
-				4F5E693C2AF9571F0021AD17 /* ViewController.swift */,
 				4F5E693E2AF9571F0021AD17 /* Main.storyboard */,
 				4F5E69462AF957200021AD17 /* Info.plist */,
-				4F5E694C2AF95A5E0021AD17 /* Resourses */,
 			);
 			path = ExtraTaskSprint4;
 			sourceTree = "<group>";
