@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+protocol JokeLoadingProtocol {
+    func loadJoke(handler: @escaping (Result<Joke, Error>) -> Void)
+}

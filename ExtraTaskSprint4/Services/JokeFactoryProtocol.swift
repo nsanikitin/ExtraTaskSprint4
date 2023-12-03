@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+protocol JokeFactoryProtocol {
+    var delegate: JokeFactoryDelegate? { get set }
+    func requestNextJoke()
+    func loadData()
+}
