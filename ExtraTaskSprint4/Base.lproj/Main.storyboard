@@ -97,7 +97,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Why did the chicken get a penalty?" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h0i-23-BM2">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Why did the chicken get a penalty?" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h0i-23-BM2">
                                                 <rect key="frame" x="24" y="61" width="278" height="159"/>
                                                 <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="24"/>
                                                 <nil key="textColor"/>
@@ -146,6 +146,9 @@
                                                 <integer key="value" value="2"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="refreshButtonDidTape:" destination="BYZ-38-t0r" eventType="touchUpInside" id="k3o-GF-YA2"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kEQ-WX-8NY" userLabel="showButton">
                                         <rect key="frame" x="76" y="0.0" width="250" height="64"/>
@@ -194,11 +197,13 @@
                     </view>
                     <connections>
                         <outlet property="IDView" destination="Ne7-AY-BqE" id="U8i-0i-qRN"/>
+                        <outlet property="jokeID" destination="vCV-D9-oCw" id="xEA-8z-gvc"/>
                         <outlet property="jokeLabel" destination="h0i-23-BM2" id="Dpt-ZV-She"/>
+                        <outlet property="jokeType" destination="NBW-zE-3wq" id="wsd-11-l80"/>
                         <outlet property="refreshButton" destination="Jc3-VR-SOx" id="4ZV-kF-LBW"/>
                         <outlet property="setupView" destination="EW7-gc-8Rb" id="TVy-Lh-dXj"/>
-                        <outlet property="showPuchButton" destination="kEQ-WX-8NY" id="Ah5-Hv-xGO"/>
-                        <outlet property="typeGeneralView" destination="DRY-e0-s8Q" id="Ave-iA-eeS"/>
+                        <outlet property="showPunchButton" destination="kEQ-WX-8NY" id="Ah5-Hv-xGO"/>
+                        <outlet property="typeView" destination="DRY-e0-s8Q" id="JlT-Y7-Ck7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
